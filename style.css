@@ -436,15 +436,11 @@ article .icon {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 1.25rem; /* Halved gap */
-  justify-content: space-around;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
 }
 
-.certificate-container article {
-  display: flex;
-  width: 5rem; /* Adjusted size */
-  justify-content: space-around;
-  gap: 0.5rem;
-}
+
 
 
 
