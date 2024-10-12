@@ -430,7 +430,7 @@ article .icon {
   align-items: center; /* Center vertically */
   flex-direction: column; /* Stack items vertically */
   text-align: center;
-  width: 40%; /* Reduce the width to 40% of the page */
+  width: 10%; /* Reduce the width to 40% of the page */
   height: auto;
   margin: 0 auto; /* Ensure the container stays centered */
   padding: 2rem; /* Add some padding if needed */
