@@ -429,15 +429,17 @@ article .icon {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   flex-direction: column; /* Stack items vertically */
-  text-align: center; /* Optional: center text if needed */
-  height: 100vh; /* Adjusts the container to full screen height */
+  text-align: center; /* Center text if needed */
+  width: 50%; /* Reduce the size of the entire container */
+  height: auto; /* Adjust height based on content */
+  margin: 0 auto; /* Ensure the container is centered on the page */
 }
 
 .certificate-img {
-  margin: 0 auto; /* Ensure the image itself is centered */
-  width: 30%; /* Adjust as per your requirement */
+  width: 30%; /* Adjust image size as needed */
   height: auto;
 }
+
 
 
 
