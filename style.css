@@ -424,14 +424,21 @@ article .icon {
 }
 
 /* CERTIFICATES SECTION */
+/* CERTIFICATES SECTION */
 .certificate-container {
   display: flex;
-  text-align: center; /* Center the content */
   flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center the content */
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
   max-width: 600px; /* Limit the width of the container */
   margin: 0 auto; /* Center the container horizontally */
   padding: 20px; /* Add padding around the content */
+  text-align: center; /* Ensure text is centered */
+}
+
+.certificate-container h2 {
+  font-size: 1.5rem; /* Adjust the font size of the heading */
+  margin-bottom: 1rem; /* Add space between the heading and the image */
 }
 
 .certificate-img {
@@ -439,7 +446,15 @@ article .icon {
   width: 60%; /* Set the image width to a smaller percentage */
   height: auto; /* Maintain aspect ratio */
   max-width: 250px; /* Set a max width for the image */
+  margin-bottom: 1rem; /* Add some space between the image and the text below */
 }
+
+.certificate-container p {
+  font-size: 1rem; /* Adjust font size for the paragraph text */
+  line-height: 1.5; /* Ensure proper line spacing for readability */
+  margin-top: 0.5rem; /* Add space above the paragraph */
+}
+
 
 
 
