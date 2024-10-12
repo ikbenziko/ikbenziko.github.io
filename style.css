@@ -425,9 +425,9 @@ article .icon {
 
 /* CERTIFICATES SECTION */
 .certificate-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  border-radius: 1rem;
+  width: 80%;
+  height: auto;
 }
 
 
