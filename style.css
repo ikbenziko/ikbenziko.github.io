@@ -66,6 +66,9 @@ a:hover {
   cursor: default;
 }
 
+
+
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -419,6 +422,13 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+/* CERTIFICATES SECTION */
+.certificate-img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* FOOTER SECTION */
 
