@@ -433,6 +433,7 @@ article .icon {
   width: 50%; /* Reduce the size of the entire container */
   height: auto; /* Adjust height based on content */
   margin: 0 auto; /* Ensure the container is centered on the page */
+  transform: scale(0.5);
 }
 
 .certificate-img {
