@@ -426,22 +426,20 @@ article .icon {
 /* CERTIFICATES SECTION */
 .certificate-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  text-align: center; /* Center the content */
   flex-direction: column; /* Stack items vertically */
-  text-align: center;
-  width: 10%; /* Reduce the width to 40% of the page */
-  height: auto;
-  margin: 0 auto; /* Ensure the container stays centered */
-  padding: 2rem; /* Add some padding if needed */
-  border-radius: 1rem; /* Optional, for rounded corners */
+  align-items: center; /* Center the content */
+  max-width: 600px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the content */
 }
 
 .certificate-img {
-  width: 60%; /* Adjust the image size as needed */
-  height: auto;
+  border-radius: 1rem;
+  width: 60%; /* Set the image width to a smaller percentage */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 250px; /* Set a max width for the image */
 }
-
 
 
 
