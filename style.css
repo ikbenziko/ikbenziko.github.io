@@ -430,6 +430,23 @@ article .icon {
   height: auto;
 }
 
+.certificate-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1.25rem; /* Halved gap */
+  justify-content: space-around;
+}
+
+.certificate-container article {
+  display: flex;
+  width: 5rem; /* Adjusted size */
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+
 
 /* FOOTER SECTION */
 
